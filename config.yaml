@@ -1,7 +1,7 @@
 cookie:
   expiry_days: 30
-  key: random_signature_key
-  name: random_cookie_name
+  key: some_signature_key
+  name: some_cookie_name
 credentials:
   usernames:
     jsmith:
