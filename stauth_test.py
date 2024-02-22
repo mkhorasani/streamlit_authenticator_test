@@ -37,9 +37,9 @@ with col1:
 
 with col2:
 # creating a login widget
-    name, authentication_status, username = authenticator.login('Login', 'main')
+    name, authentication_status, username = authenticator.login()
     if authentication_status:
-        authenticator.logout('Logout', 'main')
+        authenticator.logout()
         st.write(f'Welcome *{name}*')
         st.title('Some content')
     elif authentication_status == False:
